@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 31 22:24:49 2020
+# Process ID: 18648
+# Current directory: C:/Users/Dell20/Desktop/xilinx/fir
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6628 C:\Users\Dell20\Desktop\xilinx\fir\DDS_Addr_Generator.xpr
+# Log file: C:/Users/Dell20/Desktop/xilinx/fir/vivado.log
+# Journal file: C:/Users/Dell20/Desktop/xilinx/fir\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sources_1/new/firtop.v w ]
+add_files C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sources_1/new/firtop.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sources_1/new/lab_9.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sources_1/new/lab_9.v
+file delete -force C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sources_1/new/lab_9.v
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sim_1/new/testbench.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sim_1/new/testbench.v
+file delete -force C:/Users/Dell20/Desktop/xilinx/fir/DDS_Addr_Generator.srcs/sim_1/new/testbench.v

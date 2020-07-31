@@ -1,0 +1,9 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/learn/vivado1/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c040aa26c4e54f0fa95d93e60d18fe47 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'DAC_En' [C:/Users/Dell20/Desktop/xilinx/DDS_Addr_Generator/DDS_Addr_Generator.srcs/sources_1/new/lab_9.v:35]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'Phase' [C:/Users/Dell20/Desktop/xilinx/DDS_Addr_Generator/DDS_Addr_Generator.srcs/sources_1/new/lab_9.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
